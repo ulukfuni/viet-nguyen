@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-	height: 720px;
+	height: 100vh;
 }
 
 .App-logo {
@@ -38,9 +38,6 @@ canvas {
   	.name-plate {
   		width: 20%;
   	}
-  	canvas {
-  		height: 1200px;
-  	}
 }
 
 /* ----------- Retina Screens ----------- */
@@ -51,9 +48,5 @@ canvas {
   and (min-resolution: 192dpi) { 
   	.name-plate {
   		width: 20%;
-  	}
-
-  	canvas {
-  		height: 1200px;
   	}
 }
