@@ -1,0 +1,59 @@
+body {
+	background-color: #112128;
+}
+
+canvas {
+	height: 720px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.name-plate {
+	position: fixed;
+	transform: translateY(-50%) translateX(-50%);
+	top: 50%;
+	left: 50%;
+	padding: 8px;
+	width: 20vw;
+	color: white;
+	border: 2px solid white;
+	opacity: 0.9;
+	text-align: center;
+	width: 60%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.name-plate {
+  		width: 20%;
+  	}
+  	canvas {
+  		height: 1200px;
+  	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  	.name-plate {
+  		width: 20%;
+  	}
+
+  	canvas {
+  		height: 1200px;
+  	}
+}
