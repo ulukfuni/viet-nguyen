@@ -14,7 +14,7 @@ class Links extends Component {
                 <a href="https://github.com/ulukfuni" target="_blank" rel="noopener noreferrer" title="GitHub">
                 	<i className="fa fa-github-square"></i>
                 </a>
-                <a href="https://drive.google.com/open?id=10m10Tp4sbOW8gjXWbzO6oqZknuznjoeg" title="Resume">
+                <a href="https://drive.google.com/open?id=1rRyDsxSIhclealg-wOX8_8GqZJRGwlx8" title="Resume">
                 	<i className="fa fa-file-o"></i>
                 </a>
             </div>
